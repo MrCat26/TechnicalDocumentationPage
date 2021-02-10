@@ -1,0 +1,39 @@
+body {
+  font-family: "Monaco" ,sans-serif;
+
+  height:100%;
+
+}
+
+.navbar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.navbar a:hover {
+  color: #f1f1f1;
+} 
+/*Contents*/
+#main-doc{
+  margin-left: 350px;
+}
+
+h2 {
+  font-size: 20px;
+  color: gray;text-align: center;
+}
